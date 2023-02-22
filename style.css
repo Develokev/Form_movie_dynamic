@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: rgb(21, 88, 1);
+    margin: 20px;
+}
+
+form {
+    margin:20px;
+}
+
+h3 {
+    font-family: sans-serif;
+    color: rgb(62, 139, 38);
+
+}
+
+.inputs {
+    width: 70%;
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#genreBlank {
+    width: 70%;
+    height: 23px;
+    font-family: impact;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+#submitButton {
+    display: grid;
+    margin-top: 20px;
+    width: 100px;
+    color:rgb(12, 143, 56);
+    font-family: Tahoma;
+    letter-spacing: 1px;
+}
+
+th {
+    font-family: sans-serif;
+    border: 1px solid rgb(18, 88, 74);
+    border-collapse: collapse;
+    border-width: 10px;
+}
+
+table {
+    margin-left: 20%;
+    border-spacing: 40px;
+    border: 1px solid black;
+}
+
+#addedMovies {
+    font-family:sans-serif;
+    color:rgb(4, 24, 1);
+}

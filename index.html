@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Movie Form - Testing</h1>
+    </div>
+    <form name="formMovies" id="form" action="" method="GET">
+    <div>
+        <h3>Title</h3>
+    </div>
+        <label for="titulo">
+            <input class="inputs" id="titleBlank" type="text">
+        </label>
+
+    <div>
+        <h3>Director</h3>
+    </div>
+        <label for="director">
+            <input class="inputs" id="directorBlank" type="text">
+        </label>
+
+    <div>
+        <h3>Year</h3>
+    </div>
+        <label for="year">
+            <input class="inputs" id="yearBlank" type="text">
+        </label>
+    <div>
+        <h3>Genre</h3>
+        <select class="inputs" id="genreBlank" name="genre" id="genre">
+
+        </select>
+
+        <input id="submitButton" type="submit" value="Add Movie">
+    </div>
+    </form>
+    <table>
+        <thead>
+            <th>Title</th>
+            <th>Director</th>
+            <th>Year</th>
+            <th>Genre</th>
+        </thead>
+        <tbody id="addedMovies">
+            <td></td>
+        </tbody>
+    </table>
+    <script src="main.js"></script>
+</body>
+</html>
